@@ -28,7 +28,7 @@ This project involves the design and implementation of a LiDAR-style 3D spatial 
 ## **System Architecture**
 1.  **Hardware Control:** The ARM Cortex-M4F triggers the stepper motor to rotate in fixed angular increments.
 2.  **Data Acquisition:** At each step, the VL53L1X sensor measures the distance to the nearest object.
-3.  **Data Transmission:** Distance and angular data are packaged and transmitted to a PC via a Bus Pirate or UART-to-USB bridge.
+3.  **Data Transmission:** Distance and angular data are packaged and transmitted to a PC via a UART-to-USB bridge.
 4.  **Visualization:** MATLAB parses the data stream and renders a 3D mesh representing the scanned environment.
 
 ---
