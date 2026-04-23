@@ -1,4 +1,4 @@
-//Areeb Ahmed 400583758
+//Areeb Ahmed
 #include <stdint.h>
 #include "PLL.h"
 #include "SysTick.h"
